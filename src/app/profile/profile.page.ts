@@ -23,7 +23,7 @@ private profileService: ProfileService,
 private router: Router
               ) { }
 
-  ngOnInit() {
+  ngOnInit() {       // ada problem kat sini property 'get'
   
     this.profileService
     .getUserProfile()
